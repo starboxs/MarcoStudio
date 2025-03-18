@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Marco工作室</title>
+    <meta name="title" content="Marco工作室">
+    <meta name="description" content="我叫劉釗誠，擁有軟體開發經驗的全端工程師，目前於React、React Native 和 Golang 開發學習，以及 AI 應用與 Prompt Engineering 的實作與探索" id="meta-description">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.marcostudio.com.tw">
+    <meta property="og:title" content="Marco工作室">
+    <meta property="og:description" content="我叫劉釗誠，擁有軟體開發經驗的全端工程師，目前於React、React Native 和 Golang 開發學習，以及 AI 應用與 Prompt Engineering 的實作與探索" id="og-description">
+    <meta property="og:image" content="https://www.marcostudio.com.tw/logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.marcostudio.com.tw">
+    <meta property="twitter:title" content="Marco工作室">
+    <meta property="twitter:description" content="我叫劉釗誠，擁有軟體開發經驗的全端工程師，目前於React、React Native 和 Golang 開發學習，以及 AI 應用與 Prompt Engineering 的實作與探索" id="twitter-description">
+    <meta property="twitter:image" content="https://www.marcostudio.com.tw/logo.jpg">
+    
+    <script>
+      // Calculate years of experience
+      function calculateExperience() {
+        const startDate = new Date(2014, 3, 1); // June 1, 2008 (months are 0-indexed)
+        const currentDate = new Date();
+        const diffInYears = (currentDate - startDate) / (1000 * 60 * 60 * 24 * 365.25);
+        return Math.floor(diffInYears);
+      }
+      
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const years = calculateExperience();
+        const experienceText = `我叫劉釗誠，擁有${years}+年軟體開發經驗的全端工程師，目前於React、React Native 和 Golang 開發學習，以及 AI 應用與 Prompt Engineering 的實作與探索。`;
+        
+        document.getElementById('meta-description').setAttribute('content', experienceText);
+        document.getElementById('og-description').setAttribute('content', experienceText);
+        document.getElementById('twitter-description').setAttribute('content', experienceText);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
