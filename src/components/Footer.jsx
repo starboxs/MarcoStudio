@@ -161,7 +161,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Marco工作室. 版權所有。</p>
+          <p>&copy; {new Date().getFullYear()} Marco工作室. 版權所有 版本:v1.07</p>
         </div>
       </div>
     </footer>
