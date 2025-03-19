@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0 max-w-2xl">
             <h3 className="text-2xl font-bold mb-4">Marco工作室</h3>
             <p className="text-gray-400">
-              本網站內容由 Claude 2.7 與 ChatGPT-4o 協同生成，並部署於自家 NAS
+              本網站內容由 Claude 3.7 與 ChatGPT-4o 生成，並部署於自家 NAS
               環境，透過中華電信固定 IP 及自有網域進行公開連線。網站採用 Let's
               Encrypt 提供的免費 SSL 憑證實現 HTTPS
               安全連線，展現完整的自建伺服器與部署能力。
