@@ -90,7 +90,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">關於我</h4>
+              <h4 className="text-lg font-semibold mb-4">關於社群的我</h4>
               <div className="flex space-x-4">
                 <a
                   href="https://www.facebook.com/marcoliu9527/"
